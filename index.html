@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <title>slider</title>
+   <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>IMAGE SLIDER</h1>
+    <img src="1.jpg" alt="">
+   <div class="slideshow-container">
+      <div class="mySlides fade">
+         <div class="numbertext">1 / 3</div>
+         <img src="https://jssors8.azureedge.net/demos/image-slider/img/faded-monaco-scenery-evening-dark-picjumbo-com-image.jpg" style="width:100%">
+         
+         </div>
+         <div class="mySlides fade">
+            <div class="numbertext">2 / 3</div>
+            <img src="http://wowslider.com/sliders/demo-18/data1/images/hongkong1081704.jpg" style="width:100%;">
+         
+         </div>
+         <div class="mySlides fade">
+            <div class="numbertext">3 / 3</div>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsnhcVlsjNZYPgnGSdDrxXuAmZjbmu0k4NOxdL85xw1CYznUDMSQNgChpCf5rz1v9l1QA&usqp=CAU" style="width:100%">
+         </div>
+         <a class="prev" onclick="plusSlides(-1)">❮</a>
+         <a class="next" onclick="plusSlides(1)">❯</a>
+   </div>
+   <br>
+   <div style="text-align:center">
+      <span class="dot" onclick="currentSlide(1)"></span>
+      <span class="dot" onclick="currentSlide(2)"></span>
+      <span class="dot" onclick="currentSlide(3)"></span>
+   </div>
+
+   
+   <script src="app.js"></script>
+</body>
+</html>
